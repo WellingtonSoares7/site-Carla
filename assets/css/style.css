@@ -85,7 +85,7 @@ header{
 
     .navegation{
         flex-direction: column;
-        width: 50%;
+        width: 85%;
         padding-top: 2rem;
     }
     .container_menu_desk{
@@ -164,8 +164,8 @@ header{
     }
 
     .imagem_mobile img{
-        width: 27.125rem;
-        height: 33.875rem;
+        width: 217px;
+        height: 271px;
     }
 
 
