@@ -87,6 +87,7 @@ header{
         flex-direction: column;
         width: 75%;
         padding-top: 2rem;
+        background-color: azure;
     }
     .container_menu_desk{
         width: 100vw;
