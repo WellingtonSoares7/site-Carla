@@ -85,7 +85,7 @@ header{
 
     .navegation{
         flex-direction: column;
-        width: 85%;
+        width: 50%;
         padding-top: 2rem;
     }
     .container_menu_desk{
