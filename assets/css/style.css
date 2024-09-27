@@ -152,7 +152,7 @@ header{
 
     .container-banner{
         width: 100%;
-        height: calc(100vh - 20rem);
+        height: calc(100vh - 10rem);
         background-image: url(../img/psi_banner_mobile_02.png);
         background-repeat: no-repeat;
         background-size: cover;
