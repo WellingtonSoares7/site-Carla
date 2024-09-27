@@ -146,7 +146,8 @@ header{
 
     .container-banner{
         width: 100%;
-        height: calc(100vh - 20rem);
+        /* height: calc(100vh - 10rem); */
+        height: 90vh;
         background-image: url(../img/psi_banner_mobile_02.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -161,6 +162,11 @@ header{
         bottom: 0;
         margin: 0 3rem;
     }
+
+    /* .imagem_mobile img{
+        width: 27.127rem;
+        height: 33.875rem;
+    } */
 
     .titulo{
         width: 35em;
