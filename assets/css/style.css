@@ -85,7 +85,7 @@ header{
 
     .navegation{
         flex-direction: column;
-        width: 75%;
+        width: 85%;
         padding-top: 2rem;
         background-color: azure;
     }
