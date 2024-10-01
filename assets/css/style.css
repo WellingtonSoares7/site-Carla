@@ -203,13 +203,13 @@ header{
 
    .nome h2{
         color: white;
-        font-size: 4rem;
+        font-size: 2.5rem;
         font-weight: 400;
    }
 
    .dados_sobre_mim .crm{
         color: white;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         text-align: center;
         margin-top: 3rem;
    }
@@ -222,7 +222,7 @@ header{
    }
 
    .dados_sobre_mim .descricao_sobre_mim p{
-        font-size: 3rem;
+        font-size: 2.25rem;
    }
 
    .Agende_sua_consulta{
@@ -239,7 +239,7 @@ header{
         font-size: 2.25rem;
         color: white;
         text-decoration: none;
-        padding: 1.25rem 8rem;
+        padding: 1.25rem 6rem;
         background-color: var(--dourado-principal);
         border-radius: 1rem;
    }
@@ -253,7 +253,7 @@ header{
 
    .titulo-quando-buscar h2{
         color: var(--cinza-letra);
-        font-size: 4rem;
+        font-size: 2.5rem;
         font-weight: 400;
         padding-top: 3rem;
         text-align: center;
@@ -304,7 +304,7 @@ header{
    }
 
    .metodos-titulo h2{
-        font-size: 4rem;
+        font-size: 2.5rem;
         font-weight: 400;
         padding-top: 4rem;
         text-align: center;
@@ -431,12 +431,12 @@ header{
    }
 
    .contato-item img{
-        width: 3rem;
-        height: 4rem;
+        width: 2rem;
+        height: 2rem;
    }
 
    .contato-item p{
-        font-size: 3rem;
+        font-size: 2rem;
         color: white;
         font-weight: 300;
    }
@@ -454,14 +454,14 @@ header{
         font-size: 2.25rem;
         color: white;
         text-decoration: none;
-        padding: 1.25rem 8rem;
+        padding: 1.25rem 6rem;
         background-color: var(--dourado-principal);
         border-radius: 1rem;
     }
 
-    .ultimo-item-contato .contato-item p{
+    /* .ultimo-item-contato .contato-item p{
      font-size: 2.25rem;
-    }
+    } */
 
 
 }
