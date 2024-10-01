@@ -443,7 +443,6 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
-        /* margin-top: 1rem; */
         padding-bottom: 5rem; 
      }
 
@@ -457,4 +456,10 @@ header{
         background-color: var(--dourado-principal);
         border-radius: 1rem;
     }
+
+    .ultimo-item-contato .contato-item p{
+     font-size: 2.25rem;
+     padding-bottom: 5rem;
+     
+}
 }
