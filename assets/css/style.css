@@ -47,7 +47,7 @@ header{
      background-color: var(--verde-1);
      border-top: 0.5px solid var(--dourado-principal);
      position: absolute;
-     top: 6.5rem;
+     top: 7rem;
      z-index: 1;
  }
 
