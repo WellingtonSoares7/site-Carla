@@ -59,7 +59,7 @@ header{
  }
  .lista_menu_mobile ul{
      list-style: none;
-     width: 95vw;
+     width: 80vw;
  }
 
  .lista_menu_mobile ul li{
@@ -71,6 +71,10 @@ header{
      color: white;
      font-size: 1.125rem;
  }
+
+ .icone_menu_mobile{
+     display: none;
+}
 
 .open{
      display: block;
