@@ -300,7 +300,7 @@ header{
         background-color: var(--verde-1);
         background-image: url(../img/fundo-metodos-e-abordagens.png);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-position: center;
    }
 
    .metodos-titulo h2{
@@ -458,9 +458,3 @@ header{
         border-radius: 1rem;
     }
 }
-
-
-
-
-
-
