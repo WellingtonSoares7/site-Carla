@@ -333,6 +333,8 @@ header{
         display: flex;
         flex-direction: column;
         gap: 4rem;
+        width: 85%;
+        margin: auto;
    }
 
    .formacao-titulo h2{
@@ -457,9 +459,9 @@ header{
         border-radius: 1rem;
     }
 
+
     .ultimo-item-contato .contato-item p{
      font-size: 2.25rem;
      padding-bottom: 5rem;
-     
 }
 }
