@@ -16,452 +16,72 @@
     --bege-fundo: #EAEBE8;
 }
 
-html{
-    font-size: 50%;
-}
-
-
 body{
     width: 100%;
 }
+
 header{
-    width: 100%;
-    display: flex;
-    background-color: var(--verde-principal);
-    align-items: center;
-    justify-content: center;
+     width: 100%;
+     background-color: var(--verde-principal);
 }
 
-.navegation{
-    display: flex;
-    width: 90vw;
-    justify-content: space-between;
-    align-items: center;
-    height: 10rem;
+.navigation{
+     display: flex;
+     flex-direction: column;
 }
 
 .container_menu_desk{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100vw;
-    height: 10rem;
-    margin: 0 5rem;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 1rem;
+     padding-top: 1rem;
+     position: relative;
 }
 
-.icone_menu{
-    display: none;
+.nav_menu{
+     display: none;
 }
 
 .icone_menu_mobile{
-    display: none;
+     width: 100%;
+     background-color: var(--verde-1);
+     border-top: 0.5px solid var(--dourado-principal);
+     position: absolute;
+     top: 7rem;
+     z-index: 1;
+ }
+
+ .lista_menu_mobile{
+     width: 90vw;
+     margin: auto;
+     margin-top: 1rem;
+ }
+ .lista_menu_mobile ul{
+     list-style: none;
+     width: 95vw;
+ }
+
+ .lista_menu_mobile ul li{
+     padding-bottom: 1rem;
+ }
+
+ .lista_menu_mobile ul li a{
+     text-decoration: none;
+     color: white;
+     font-size: 1.125rem;
+ }
+
+.open{
+     display: block;
+ }
+
+.imagem_desk{
+     display: none;
 }
 
-.navegation .container_menu_desk ul{
-    display: flex;
-    gap: 2rem;
-}
+ @media screen and (min-width: 1100px){
 
-.navegation .container_menu_desk ul li{
-    list-style: none;
-    padding: 1rem 1rem;
-    border-color: var(--branco);
-}
+ }
 
-.navegation .container_menu_desk ul li:hover{
-    border-bottom: 1px solid var(--branco);
-}
 
-.navegation .container_menu_desk ul li a{
-    font-size: 2rem;
-    font-weight: 400;
-    color: var(--branco);
-    text-decoration: none;
-}
-
-/*main*/
-
-
-@media screen and (min-width: 360px) and (max-width: 1100px){
-
-header{
-    display: flex;
-    flex-direction: column;
-}
-
-    .navegation{
-        flex-direction: column;
-        width: 85%;
-        padding-top: 2rem;
-    }
-    .container_menu_desk{
-        width: 100vw;
-        position: relative;
-    }
-
-    .imagem_desk{
-        display: none;
-    }
-
-    .nav_menu{
-        display: none;
-    }
-
-    .icone_menu{
-        display: block;
-    }
-
-    .icone_menu_mobile{
-        width: 100%;
-        background-color: var(--verde-1);
-        border-top: 0.5px solid var(--dourado-principal);
-        position: absolute;
-        top: 12rem;
-        z-index: 1;
-    }
-
-    .lista_menu_mobile{
-        width: 90vw;
-        margin: auto;
-        margin-top: 2rem;
-    }
-    .lista_menu_mobile ul{
-        list-style: none;
-        width: 80vw;
-    }
-
-    .lista_menu_mobile ul li{
-        padding-bottom: 2rem;
-    }
-
-    .lista_menu_mobile ul li a{
-        text-decoration: none;
-        color: white;
-        font-size: 2rem;
-    }
-
-    .open{
-        display: block;
-    }
-
-    /*main*/
-
-    main{
-        width: 100%;
-    }
-
-    .container-banner{
-        width: 100%;
-        height: calc(100vh - 10rem);
-        background-image: url(../img/fundo-para-banner.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        background-color: #757574;
-        position: relative;
-    }
-
-    .imagem_mobile{
-        position: absolute;
-        right: 1.5rem;
-        bottom: 0;
-        margin: 0 3rem;
-    }
-
-    /* .imagem_mobile img{
-        width: 27.127rem;
-        height: 33.875rem;
-    } */
-
-    .titulo{
-        width: 35em;
-        padding: 3rem 0 0 5rem;
-    }
-
-   .container-banner .titulo h1{
-        font-size: 3.5rem;
-        color: var(--cinza-letra);
-        font-weight: 600;
-   }
-
-   /*sobre mim*/
-   
-   .sobre_mim{
-        width: 100%;
-        background-color: var(--verde-1);
-   }
-
-   .div-cor{
-        width: 85%;
-        margin: auto;
-   }
-
-   .nome{
-        text-align: center;
-        padding-top: 3rem;
-   }
-
-   .nome h2{
-        color: white;
-        font-size: 2.5rem;
-        font-weight: 400;
-   }
-
-   .dados_sobre_mim .crm{
-        color: white;
-        font-size: 1.5rem;
-        text-align: center;
-        margin-top: 3rem;
-   }
-
-   .dados_sobre_mim .descricao_sobre_mim{
-        color: white;
-        padding-top: 3rem;
-        font-weight: 300;
-        line-height: 5rem;
-   }
-
-   .dados_sobre_mim .descricao_sobre_mim p{
-        font-size: 2.25rem;
-   }
-
-   .Agende_sua_consulta{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       margin-top: 5rem;
-       padding-bottom: 5rem; 
-   }
-
-   .Agende_sua_consulta a{
-        display: flex;
-        gap: 1rem;
-        font-size: 2.25rem;
-        color: white;
-        text-decoration: none;
-        padding: 1.25rem 6rem;
-        background-color: var(--dourado-principal);
-        border-radius: 1rem;
-   }
-
-   /*quando buscar ajuda*/
-
-   .quando-buscar-ajuda{
-        width: 100%;
-        background-color: var(--bege-fundo);
-   }
-
-   .titulo-quando-buscar h2{
-        color: var(--cinza-letra);
-        font-size: 2.5rem;
-        font-weight: 400;
-        padding-top: 3rem;
-        text-align: center;
-   }
-
-   .descricao-quando-buscar h3{
-        font-size: 2rem;
-        color: var(--cinza-letra);
-        font-weight: 500;
-        padding-top: 2rem;
-   }
-
-   .lista{
-        display: flex;
-        flex-direction: column;
-        padding-top: 3rem;
-   }
-
-   .check-itens{
-        display: flex;
-        gap: 1.5rem;
-        margin-bottom: 2em;
-   }
-
-   .check-itens p{
-        font-size: 2.25rem;
-        color: var(--cinza-letra);
-        font-weight: 300;
-   }
-
-   .check-itens img{
-        width: 2.5rem;
-        height: 2.5rem;
-        padding-top: 0.5rem;
-   }
-
-   .ultimo-item{
-        padding-bottom: 5rem;
-   }
-
-   /*Metodos e abordagens*/
-
-   .Metodos-e-abordagens{
-        background-color: var(--verde-1);
-        background-image: url(../img/fundo-metodos-e-abordagens.png);
-        background-repeat: no-repeat;
-        background-position: center;
-   }
-
-   .metodos-titulo h2{
-        font-size: 2.5rem;
-        font-weight: 400;
-        padding-top: 4rem;
-        text-align: center;
-        color: white;
-   }
-
-   .metodos-descricao{
-        color: white;
-        padding-top: 2.25rem;
-        font-weight: 300;
-   }
-
-   .metodos-descricao p{
-        font-size: 3rem;
-        line-height: 5rem;
-   }
-
-
-   /*formacoes*/
-
-   .formacoes{
-        background-color: var(--bege-fundo);
-   }
-
-   .div-cor-gap{
-        display: flex;
-        flex-direction: column;
-        gap: 4rem;
-        width: 85%;
-        margin: auto;
-   }
-
-   .formacao-titulo h2{
-        font-size: 4rem;
-        font-weight: 400;
-        padding-top: 4rem;
-        text-align: center;
-        color: var(--cinza-letra);
-   }
-
-   .container-principal{
-        display: flex;
-        gap: 3rem;
-   }
-
-   .container-lista-formacoes{
-        display: flex;
-        flex-direction: column;
-        gap: 6rem;
-   }
-
-   .formacao-descricao{
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-   .formacoes-imagem img{
-        width: 8rem;
-        height: 8.625rem;
-        border-right: 1.5px solid var(--cinza-letra);
-        padding-right: 3rem;
-   }
-
-   .formacao-descricao h3{
-        color: var(--dourado-principal);
-        font-size: 2.5rem;
-        font-weight: 400;
-   }
-
-   .formacao-descricao p{
-        color: var(--cinza-letra);
-        font-size: 3rem;
-        font-weight: 500;
-   }
-
-   /*atendimento*/
-
-   .atendimento{
-        background-color: var(--verde-1);
-   }
-
-   .atendimento-titulo h2{
-        font-size: 4rem;
-        font-weight: 400;
-        padding-top: 4rem;
-        text-align: center;
-        color: white;
-   }
-
-   .atendimento-lista-item{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 3rem;
-   }
-
-   .atendimento-lista-item .atendimento-lista-img{
-        width: 10rem;
-        height: 10rem;
-   }
-
-   .atendimento-lista-item .presencial{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-   }
-
-   .atendimento-lista-item .presencial h3{
-        font-size: 3rem;
-        color: white;
-        font-weight: 400;
-   }
-
-   .atendimento-lista-item .presencial p{
-        font-size: 2.5rem;
-        color: white;
-        font-weight: 300;
-   }
-
-   .contato-item{
-        display: flex;
-        gap: 2rem;
-   }
-
-   .contato-item img{
-        width: 2rem;
-        height: 2rem;
-   }
-
-   .contato-item p{
-        font-size: 2rem;
-        color: white;
-        font-weight: 300;
-   }
-
-   .Agende_sua_consulta-contato{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 5rem; 
-     }
-
-    .Agende_sua_consulta-contato a{
-        display: flex;
-        gap: 1rem;
-        font-size: 2.25rem;
-        color: white;
-        text-decoration: none;
-        padding: 1.25rem 6rem;
-        background-color: var(--dourado-principal);
-        border-radius: 1rem;
-    }
-
-    /* .ultimo-item-contato .contato-item p{
-     font-size: 2.25rem;
-    } */
-
-
-}
