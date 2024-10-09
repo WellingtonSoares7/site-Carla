@@ -114,6 +114,59 @@ header{
      font-weight: 600;
 }
 
+/*main sobre mim*/
+
+.sobre_mim{
+    background-color: var(--verde-1);
+    display: flex;
+    justify-content: center;
+}
+
+.div-cor{
+  width: 85%;
+}
+
+.nome h2{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+.crm{
+    color: white;
+    margin-top: 1rem;
+}
+
+.descricao_sobre_mim{
+    margin: 1rem 0;
+}
+.descricao_sobre_mim p{
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.Agende_sua_consulta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.Agende_sua_consulta a{
+    display: flex;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    padding: 1.25rem 6rem;
+    background-color: var(--dourado-principal);
+    border-radius: 1rem;
+}
+
 @media screen and (max-width:360px){
 
      .container-banner .titulo h1{
