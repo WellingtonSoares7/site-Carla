@@ -223,6 +223,34 @@ header{
     padding-bottom: 2.5rem;
 }
 
+/*metodos e abordagens*/
+
+.Metodos-e-abordagens{
+    background-color: var(--verde-1);
+    background-image: url(../img/fundo-metodos-e-abordagens.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.metodos-titulo h2{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.metodos-descricao{
+    color: white;
+    padding-top: 1.125rem;
+    font-weight: 300;
+}
+
+.metodos-descricao p{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
 
 @media screen and (max-width:360px){
 
