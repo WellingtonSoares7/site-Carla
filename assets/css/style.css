@@ -251,6 +251,64 @@ header{
     line-height: 2.5rem;
 }
 
+/*formações*/
+
+.formacoes{
+    background-color: var(--bege-fundo);
+}
+
+.div-cor-gap{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 85%;
+    margin: auto;
+}
+
+.formacao-titulo h2{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 2rem;
+    text-align: center;
+    color: var(--cinza-letra);
+}
+
+.container-principal{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.container-lista-formacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.formacao-descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.formacoes-imagem img{
+    width: 4rem;
+    height: 4.3125rem;
+    border-right: 1.5px solid var(--cinza-letra);
+    padding-right: 1.5rem;
+}
+
+.formacao-descricao h3{
+    color: var(--dourado-principal);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.formacao-descricao p{
+    color: var(--cinza-letra);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 
 @media screen and (max-width:360px){
 
