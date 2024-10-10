@@ -155,12 +155,18 @@ header{
 }
 
 .Agende_sua_consulta{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
-    width: 100%;
-}
+    width: 100%;*/
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem; 
+} 
 
 .Agende_sua_consulta a{
     display: flex;
