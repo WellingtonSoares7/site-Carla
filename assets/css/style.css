@@ -38,6 +38,12 @@ header{
      position: relative;
 }
 
+.div-cor{
+    width: 85%;
+    margin: auto;
+}
+
+
 .nav_menu{
      display: none;
 }
@@ -114,7 +120,7 @@ header{
      font-weight: 600;
 }
 
-/*main sobre mim*/
+/*sobre mim*/
 
 .sobre_mim{
     background-color: var(--verde-1);
@@ -166,6 +172,57 @@ header{
     background-color: var(--dourado-principal);
     border-radius: 1rem;
 }
+
+/*quando buscar ajuda*/
+
+.quando-buscar-ajuda{
+    width: 100%;
+    background-color: var(--bege-fundo);
+}
+
+.titulo-quando-buscar h2{
+    color: var(--cinza-letra);
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+.descricao-quando-buscar h3{
+    font-size: 1rem;
+    color: var(--cinza-letra);
+    font-weight: 500;
+    padding-top: 1rem;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+}
+
+.check-itens{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1em;
+}
+
+.check-itens p{
+    font-size: 1.125rem;
+    color: var(--cinza-letra);
+    font-weight: 300;
+}
+
+.check-itens img{
+    width: 1.25rem;
+    height: 1.25rem;
+    padding-top: 0.25rem;
+}
+
+.ultimo-item{
+    padding-bottom: 2.5rem;
+}
+
 
 @media screen and (max-width:360px){
 
