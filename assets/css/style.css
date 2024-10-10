@@ -155,13 +155,6 @@ header{
 }
 
 .Agende_sua_consulta{
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
-    width: 100%;*/
-
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,8 +163,8 @@ header{
 
 .Agende_sua_consulta a{
     display: flex;
-    gap: 0.5rem;
-    font-size: 1.5rem;
+    gap: 1rem;
+    font-size: 2.25rem;
     color: white;
     text-decoration: none;
     padding: 1.25rem 6rem;
