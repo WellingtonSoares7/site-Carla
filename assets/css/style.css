@@ -387,6 +387,10 @@ header{
     border-radius: 0.5rem;
 }
 
+    .email{
+        font-size: 1rem;
+    }
+
 
 @media screen and (max-width:360px){
 
