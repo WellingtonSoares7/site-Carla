@@ -198,7 +198,7 @@ header{
 .lista{
     display: flex;
     flex-direction: column;
-    padding-top: 1.5rem;
+    padding-top: 2rem;
 }
 
 .check-itens{
