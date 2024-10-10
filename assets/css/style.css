@@ -359,12 +359,12 @@ header{
 }
 
 .contato-item img{
-    width: 1rem;
-    height: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .contato-item p{
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: white;
     font-weight: 300;
 }
