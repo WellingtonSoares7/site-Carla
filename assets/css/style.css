@@ -330,8 +330,8 @@ header{
 }
 
 .atendimento-lista-item .atendimento-lista-img{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 .atendimento-lista-item .presencial{
@@ -354,7 +354,7 @@ header{
 
 .contato-item{
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .contato-item img{
