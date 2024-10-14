@@ -96,7 +96,8 @@ header{
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
-     height: calc(100vh - 5rem);
+     /* height: calc(100vh - 5rem); */
+     height: 80%;
      width: 100%;
      position: relative;
 }
