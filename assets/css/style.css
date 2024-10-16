@@ -58,7 +58,8 @@ header{
  }
 
  .lista_menu_mobile{
-     width: 90vw;
+     /* width: 90vw; */
+     width: 90%;
      margin: auto;
      margin-top: 1rem;
  }
