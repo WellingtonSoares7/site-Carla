@@ -206,12 +206,7 @@ header{
 .check-itens{
     display: flex;
     gap: 1rem;
-    margin-bottom: 1em;
-    align-items: end;
-}
-
-.check-itens-2linhas{
-    align-items: normal;
+    margin-bottom: 1.5em;
 }
 
 .check-itens p{
@@ -223,7 +218,7 @@ header{
 .check-itens img{
     width: 1.5rem;
     height: 1.5rem;
-    padding-top: 0.25rem;
+    /* padding-top: 0.25rem; */
 }
 
 .ultimo-item{
