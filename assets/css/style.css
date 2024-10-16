@@ -24,16 +24,15 @@ body{
 .navegation{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    background-color: rgba(27, 49, 50, 80);
+    justify-content: center;
 }
 
 .imagem{
     display: flex;
     justify-content: center;
     margin-top: 0.5rem;
-    width: 100%;
-    background-color: var(--verde-principal);
-    position: fixed;
-    z-index: 1;
 }
 
 .div-cor{
@@ -54,8 +53,8 @@ body{
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
-     /* height: calc(100vh - 15rem);  */
-     min-height: 100vh;
+     height: calc(100vh - 15rem); 
+     /* height: 100vh; */
      width: 100%;
      position: relative;
 }
