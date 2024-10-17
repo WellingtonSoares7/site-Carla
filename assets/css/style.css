@@ -430,6 +430,30 @@ body{
     margin-left: 4rem;
 }
 
+/*sobre mim*/
+
+.flex{
+    display: flex;
+    gap: 7.4375rem;
+    margin: 4.125rem 4.0625rem;
+}
+
+.imagem-sobre-min img{
+    width: 25.5rem;
+    height: 32.625rem;
+}
+
+.container-descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: left;
+}
+
+.container-descricao .nome h2{
+    font-size: 3rem;
+}
+
  }
 
 
