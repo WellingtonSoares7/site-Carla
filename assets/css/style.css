@@ -390,21 +390,22 @@ body{
     gap: 0.625rem;
 }
 
-.container_menu_desk ul li{
+.container_menu_desk nav ul li{
+    border-bottom: 1px solid transparent;
     transition: all 0.5s;
 }
 
-.container_menu_desk ul li a{
+.container_menu_desk nav ul li a{
     text-decoration: none;
     color: white;
     font-size: 1rem;
     padding: 0.625rem;
     transition: all 0.5s;
 }
-.container_menu_desk ul li:hover{
+.container_menu_desk nav ul li:hover{
     border-bottom: 1px solid var(--dourado-principal);
 }
-.container_menu_desk ul li a:hover{
+.container_menu_desk nav ul li a:hover{
     color: var(--dourado-principal);
 }
 
