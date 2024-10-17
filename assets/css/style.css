@@ -25,14 +25,18 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: var(--verde-principal);
     justify-content: center;
+    background-color: var(--verde-principal);
 }
 
 .imagem{
     display: flex;
     justify-content: center;
     margin-top: 0.5rem;
+}
+
+.container_menu_desk nav{
+    display: none;
 }
 
 .div-cor{
@@ -54,7 +58,6 @@ body{
      background-size: cover;
      background-position: center;
      height: calc(100vh - 15rem); 
-     /* height: 100vh; */
      width: 100%;
      position: relative;
 }
@@ -365,6 +368,66 @@ body{
 
 
  @media screen and (min-width: 1100px){
+
+.container-banner{
+    background-image: url(../img/fundo\ desktop.png);
+}
+
+.container_menu_desk{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 4rem;
+}
+
+.container_menu_desk nav{
+    display: block;
+}
+
+.container_menu_desk nav ul{
+    display: flex;
+    list-style: none;
+    gap: 0.625rem;
+}
+
+.container_menu_desk ul li{
+    transition: all 0.5s;
+}
+
+.container_menu_desk ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 0.625rem;
+    transition: all 0.5s;
+}
+.container_menu_desk ul li:hover{
+    border-bottom: 1px solid var(--dourado-principal);
+}
+.container_menu_desk ul li a:hover{
+    color: var(--dourado-principal);
+}
+
+/*banner*/
+
+.imagem_mobile{
+    display: none;
+}
+
+.imagem_desk{
+    display: block;
+    position: absolute;
+    right: 1.5rem;
+    bottom: 0;
+    margin-right: 1.5rem;
+    margin-bottom: 0;
+}
+
+.titulo{
+    font-size: 2.5rem;
+    width: 35rem;
+    margin-left: 4rem;
+}
 
  }
 
