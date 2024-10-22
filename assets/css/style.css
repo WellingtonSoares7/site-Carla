@@ -68,6 +68,7 @@ body{
      bottom: 0;
      /* margin-right: 0.5rem; */
      margin-bottom: 0;
+     align-items: center;
  }
 
  .titulo{
