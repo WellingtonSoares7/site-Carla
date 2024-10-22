@@ -60,6 +60,9 @@ body{
      height: calc(100vh - 15rem);
      width: 100%;
      position: relative;
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
 }
 
 .imagem_mobile{
