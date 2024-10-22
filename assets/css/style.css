@@ -66,10 +66,9 @@ body{
 }
 
 .imagem_mobile{
-     position: absolute;
+     /* position: absolute; */
      right: 1.5rem;
      bottom: 0;
-     /* margin-right: 0.5rem; */
      margin-bottom: 0;
      align-items: center;
  }
