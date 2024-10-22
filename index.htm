@@ -29,14 +29,8 @@
         <div class="titulo">
             <h1>A psicoterapia começa quando você percebe que algo precisa mudar.</h1>
         </div>
+       
         <!-- <div class="imagem_mobile">
-            <img src="assets/img/psi_mobile.png" alt="">
-        </div>
-        <div class="imagem_desk">
-            <img src="assets/img/psi_banner.png" alt="">
-        </div> -->
-
-        <div class="imagem_mobile">
             <img srcset="assets/img/foto-banner-296.png 360w,
                          assets/img/foto-banner-509.png 800w,
                          assets/img/foto-banner-554.png 1280w"
@@ -44,6 +38,14 @@
                                (max-width: 834px) 800px, 1280px"
                         src="assets/img/foto-banner-554.png" 
                         alt="imagem profissional">
+        </div> -->
+
+        <div class="imagem_mobile">
+            <picture>
+                <source media="(max-width: 430px)" srcset="assets/img/foto-banner-296.png">
+                <source media="(max-width: 834px)" srcset="assets/img/foto-banner-509.png">
+                <img src="assets/img/foto-banner-554.png" alt="teste">
+            </picture>
         </div>
 
         </section>
