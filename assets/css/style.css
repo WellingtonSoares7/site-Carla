@@ -44,12 +44,6 @@ body{
     margin: auto;
 }
 
-/* .imagem_desk{
-     display: none;
-} */
-
-
-
 /*main banner*/
 
 .container-banner{
@@ -57,7 +51,7 @@ body{
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
-     height: calc(100vh - 15rem);
+     height: calc(100vh - 5rem);
      width: 100%;
      position: relative;
      /* display: flex;
