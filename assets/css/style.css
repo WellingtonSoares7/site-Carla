@@ -59,12 +59,11 @@ body{
      gap: 1rem; */
 }
 
-.imagem_mobile{
+.imagem_mobile img{
      position: absolute;
      right: 1.5rem;
      bottom: 0;
-     margin-bottom: 0;
-     align-items: center;
+     /* margin-bottom: 0; */
  }
 
  .titulo{
