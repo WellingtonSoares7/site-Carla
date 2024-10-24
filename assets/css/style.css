@@ -379,11 +379,39 @@ body{
         font-size: 1.3rem;
      }
 
-     /*atendimento*/
+     /*quando buscar ajuda*/
 
-     .email{
-        font-size: 3rem;
+     .titulo-quando-buscar h2{ 
+        font-size: 1.5rem;
      }
+
+     /*metodos e abordagens*/
+
+     .metodos-titulo h2{
+        font-size: 1.5rem;
+     }
+
+     .formacao-titulo h2{
+        font-size: 1.5rem;
+     }
+
+     /*atendimento*/
+     .atendimento-titulo h2{
+        font-size: 1.5rem;
+     }
+
+    .contato-item .email{
+        font-size: 1rem;
+     }
+
+    .atendimento-lista-item .presencial h3{
+        font-size: 1rem;
+     }
+
+     .atendimento-lista-item .presencial p{
+        font-size: 1rem;
+     }
+
 }
 
 
