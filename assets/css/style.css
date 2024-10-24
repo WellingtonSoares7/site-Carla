@@ -372,6 +372,18 @@ body{
           font-size: 1.5rem;
           color: #A57D40;
      }
+
+     /*sobre mim*/
+
+     .nome h2{
+        font-size: 1.3rem;
+     }
+
+     /*atendimento*/
+
+     .email{
+        font-size: 0.8rem;
+     }
 }
 
 
