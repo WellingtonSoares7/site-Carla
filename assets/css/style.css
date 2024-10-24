@@ -381,8 +381,8 @@ body{
 
      /*atendimento*/
 
-     .email p{
-        font-size: 0.5rem;
+     .email{
+        font-size: 3rem;
      }
 }
 
