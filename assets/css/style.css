@@ -428,11 +428,8 @@ body{
 
 .container-banner{
     background-image: url(../img/fundo\ desktop.png); 
-    display: flex;
-    justify-content: space-between;
-    height: calc(100vh - 15rem);
-    align-items: center;
-    
+    height: calc(100vh - 10rem);
+    gap: 1rem;
 }
 
 .container_menu_desk{
