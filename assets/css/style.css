@@ -424,11 +424,14 @@ header{
 
 @media screen and (min-width: 800px) and (max-width: 1370px){
 
+header{
+    height: calc(100vh - 15rem);
+}
+
 .container-banner{
     background-image: url(../img/fundo\ desktop.png); 
     background-size: contain;
     gap: 1rem;
-    height: calc(100vh - 15rem);
 }
 
 .container_menu_desk{
