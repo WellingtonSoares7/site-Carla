@@ -425,7 +425,7 @@ header{
 @media screen and (min-width: 800px) and (max-width: 1370px){
 
 header{
-    height: calc(100vh - 15rem);
+    height: 100vh;
 }
 
 .container-banner{
