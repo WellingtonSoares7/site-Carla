@@ -366,7 +366,7 @@ body{
 @media screen and (max-width:360px){
 
     .container-banner{
-        height: calc(100vh - 10rem);
+        /* height: calc(100vh - 10rem); */
     }
 
      .container-banner .titulo h1{
