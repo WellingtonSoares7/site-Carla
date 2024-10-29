@@ -422,7 +422,7 @@ header{
 }
 
 
-@media screen and (min-width: 800px) and (max-width: 1280px){
+@media screen and (min-width: 800px) and (max-width: 1370px){
 
 .container-banner{
     background-image: url(../img/fundo\ desktop.png); 
@@ -546,6 +546,11 @@ header{
 
 
  @media screen and (min-width: 1600px){
+
+    header{
+        height: calc(100vh -20rem);
+    }
+
     .container-banner{
         background-image: url(../img/fundo\ desktop.png); 
         gap: 1rem;
