@@ -431,6 +431,7 @@ header{
     background-image: url(../img/fundo\ desktop.png); 
     background-size: contain;
     gap: 1rem;
+    height: calc(100vh - 5rem);
 }
 
 .container_menu_desk{
@@ -472,11 +473,11 @@ header{
 /*banner*/
 
 .imagem_mobile{
-    display: none;
+    display: block;
 }
 
 .imagem_desk{
-    display: block;
+    display: none;
 }
 
 .imagem_desk img{
