@@ -428,6 +428,7 @@ header{
     background-image: url(../img/fundo\ desktop.png); 
     background-size: contain;
     gap: 1rem;
+    height: calc(100vh - 15rem);
 }
 
 .container_menu_desk{
