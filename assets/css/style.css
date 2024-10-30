@@ -425,15 +425,6 @@ header{
 
 @media screen and (min-width: 800px) and (max-width: 1370px){
 
-
-
-.container-banner{
-    background-image: url(../img/fundo\ desktop.png); 
-    background-size: contain;
-    gap: 1rem;
-    height: calc(100vh - 5rem);
-}
-
 .container_menu_desk{
     display: flex;
     justify-content: space-between;
@@ -472,12 +463,26 @@ header{
 
 /*banner*/
 
+.container-banner{
+    background-image: url(../img/fundo\ desktop.png); 
+    gap: 1rem;
+    height: calc(100vh - 5rem);
+    justify-content: center;
+}
+
+.div-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
 .imagem_mobile{
-    display: block;
+    display: none;
 }
 
 .imagem_desk{
-    display: none;
+    display: block;
 }
 
 .imagem_desk img{
@@ -488,13 +493,12 @@ header{
 .titulo-cta{
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 .titulo-cta .titulo h1{
-    font-size: 2.5rem;
-    width: 70rem;
-    margin-left: 4rem;
-    text-align: center;
+    font-size: 3rem;
+    width: 40rem;
+    text-align: left;
 }
 
 /*sobre mim*/
