@@ -378,6 +378,10 @@ header{
 
 @media screen and (max-width:360px){
 
+    header{
+        height: 100vh;
+    }
+
      .container-banner .titulo h1{
           font-size: 1.5rem;
           color: var(--cinza-letra);
