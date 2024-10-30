@@ -376,10 +376,16 @@ header{
     }
 
 
-@media screen and (max-width:360px){
+@media screen and (max-width:375px){
 
     header{
         height: 100vh;
+    }
+
+    /*banner*/
+
+    .container-banner{
+        height: calc(100vh - 5rem);
     }
 
      .container-banner .titulo h1{
