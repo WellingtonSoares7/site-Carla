@@ -63,6 +63,12 @@ header{
      gap: 2rem;
 }
 
+.div-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .imagem_desk{
     display: none;
 }
@@ -370,7 +376,7 @@ header{
     }
 
 
-@media screen and (max-width:360px){
+@media screen and (max-width:375px){
 
      .container-banner .titulo h1{
           font-size: 1.5rem;
@@ -559,12 +565,6 @@ header{
         height: calc(100vh -20rem);
     }
 
-    .container-banner{
-        background-image: url(../img/fundo\ desktop.png); 
-        gap: 1rem;
-        flex-direction: column;
-    }
-    
     .container_menu_desk{
         display: flex;
         justify-content: space-between;
@@ -602,6 +602,22 @@ header{
     }
     
     /*banner*/
+
+    .container-banner{
+        background-image: url(../img/fundo\ desktop.png); 
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .div-banner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        
+        /* background-color: aquamarine; */
+    }
+    
     
     .imagem_mobile{
         display: none;
@@ -617,9 +633,10 @@ header{
     
     .titulo-cta .titulo h1{
         font-size: 3rem;
-        width: 70rem;
+        width: 60rem;
         margin-left: 4rem;
         text-align: center;
+        color: var(--cinza-letra);
     }
     
     .titulo-cta{
