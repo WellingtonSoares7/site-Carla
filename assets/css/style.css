@@ -480,6 +480,7 @@ header{
 
 .div-banner{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 90%;
@@ -502,11 +503,17 @@ header{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    align-items: start;
 }
 .titulo-cta .titulo h1{
     font-size: 3rem;
     width: 40rem;
     text-align: left;
+    color: var(--cinza-letra);
+}
+
+.titulo-cta .Agende_sua_consulta-contato{
+    margin-left: 2.5rem;
 }
 
 /*sobre mim*/
@@ -558,7 +565,23 @@ header{
     height: 31.9375rem;
 }
 
- }
+/*atendimento*/
+
+.atendimento-lista{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.atendimento-lista-item .presencial h3{
+    font-size: 1rem;
+}
+
+.atendimento-lista-item .lista-contatos p{
+    font-size: 1rem;
+}
+
+}
 
 
  @media screen and (min-width: 1600px){
@@ -608,14 +631,16 @@ header{
     .container-banner{
         background-image: url(../img/fundo\ desktop.png); 
         gap: 1rem;
+        height: calc(100vh - 10rem);
         justify-content: center;
     }
 
     .div-banner{
         display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        width: 80%;
+        width: 90%;
     }
     
     
@@ -630,21 +655,27 @@ header{
     .imagem_desk img{
         margin-top: 1.5rem;
      }
-    
-    .titulo-cta .titulo h1{
-        font-size: 3rem;
-        width: 60rem;
-        margin-left: 4rem;
-        text-align: center;
-        color: var(--cinza-letra);
-    }
-    
-    .titulo-cta{
+
+     .titulo-cta{
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
+        align-items: start;
     }
     
+    .titulo-cta .titulo h1{
+        font-size: 4rem;
+        width: 60rem;
+        margin-left: 4rem;
+        text-align: left;
+        color: var(--cinza-letra);
+    }
+    
+    
+    .titulo-cta .Agende_sua_consulta-contato{
+        margin-left: 6rem;
+    }
+
     /*sobre mim*/
     
     .flex{
@@ -692,6 +723,22 @@ header{
     .imagem-quando-buscar-ajuda img{
         width: 35.4375rem;
         height: 31.9375rem;
+    }
+
+    /*atendimento*/
+
+    .atendimento-lista{
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+    }
+
+    .atendimento-lista-item .presencial h3{
+        font-size: 1rem;
+    }
+    
+    .atendimento-lista-item .lista-contatos p{
+        font-size: 1rem;
     }
  }
 
