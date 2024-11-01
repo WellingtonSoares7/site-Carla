@@ -543,6 +543,15 @@ header{
     font-size: 2.5rem;
 }
 
+/*metodos e abordagens*/
+
+.Metodos-e-abordagens{
+    background-image: none;
+}
+
+.flex-lista{
+    margin-top: 2rem;
+}
 
 /*quando buscar ajuda*/
 
@@ -703,7 +712,12 @@ header{
     .container-descricao .nome h2{
         font-size: 3rem;
     }
+
+    /*metodos e abordagens*/
     
+    .Metodos-e-abordagens{
+        background-image: none;
+    }
     
     /*quando buscar ajuda*/
     
@@ -711,9 +725,14 @@ header{
         display: flex;
         flex-direction: column;
     }
+
+    .metodos-descricao{
+        width: 55%;
+    }
     
     .flex-lista{
         display: flex;
+        align-items: center;
         justify-content: space-between;
     }
     
