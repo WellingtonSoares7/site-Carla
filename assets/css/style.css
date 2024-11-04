@@ -447,6 +447,11 @@ header{
 
 @media screen and (min-width: 800px) and (max-width: 1370px){
 
+
+.navegation{
+    position: fixed;
+}
+
 .container_menu_desk{
     display: flex;
     justify-content: space-between;
@@ -591,6 +596,10 @@ header{
 
 /*formação*/
 
+.formacoes{
+    background-image: none;
+}
+
 .imagem-formacoes{
     display: block;
 }
@@ -620,6 +629,11 @@ header{
 
  @media screen and (min-width: 1600px){
 
+    .navegation{
+        position: fixed;
+    }
+
+    /*banner*/
     header{
         height: calc(100vh -20rem);
     }
@@ -771,6 +785,10 @@ header{
     }
 
     /*formação*/
+
+    .formacoes{
+        background-image: none;
+    }
 
     .imagem-formacoes{
         display: block;
