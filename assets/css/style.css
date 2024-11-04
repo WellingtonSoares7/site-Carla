@@ -56,7 +56,6 @@ header{
      background-position: center;
      background-color: var(--bege-fundo);
      width: 100%;
-     /* height: 100vh; */
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -84,7 +83,7 @@ header{
 
  .container-banner .titulo h1{
      font-size: 2rem;
-     color: var(--dourado-principal);
+     color: var(--cinza-letra);
      font-weight: 600;
      text-align: center;
 }
