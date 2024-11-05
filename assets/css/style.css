@@ -813,6 +813,11 @@ header{
     .atendimento-lista-item .lista-contatos p{
         font-size: 1rem;
     }
+
+    .lista-contatos .contato-item a{
+        list-style: none;
+        text-decoration: none;
+    }
  }
 
 
