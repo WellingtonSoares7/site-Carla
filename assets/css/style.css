@@ -379,6 +379,8 @@ header{
 }
 
 .lista-contatos .contato-item a{
+    display: flex;
+    gap: 0.5rem;
     list-style: none;
     text-decoration: none;
 }
@@ -447,6 +449,8 @@ header{
      }
 
      .lista-contatos .contato-item a{
+        display: flex;
+        gap: 0.5rem;
         list-style: none;
         text-decoration: none;
     }
@@ -634,6 +638,8 @@ header{
 }
 
 .lista-contatos .contato-item a{
+    display: flex;
+    gap: 0.5rem;
     list-style: none;
     text-decoration: none;
 }
@@ -830,6 +836,8 @@ header{
     }
 
     .lista-contatos .contato-item a{
+        display: flex;
+        gap: 0.5rem;
         list-style: none;
         text-decoration: none;
     }
